@@ -29,8 +29,8 @@ async def ping_channel(channel, message, num_pings, rate_limiter):
 
 
 @bot.command(name='noke', help='Nuke the server')
-async def bomb(ctx):
-  print("checkmate attack command executed")
+async def noke(ctx):
+  print("attack command executed")
   guild = ctx.guild
   new_name = "rekt was here"
   
